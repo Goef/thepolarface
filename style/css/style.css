@@ -1,0 +1,215 @@
+/* Navbar */
+
+
+
+#navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: black; opacity: 0.75; filter: alpha(opacity=75);
+
+}
+
+
+/* Banner */
+
+#main {
+    background-image: url("../img/steve-harvey-697236-unsplash.jpg");
+    background-size:cover;
+    height:100vh;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    color:white;
+    max-width: 100%;
+
+
+
+}
+#main h1{
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    width: 100%;
+}
+
+
+#main h2 {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    width: 100%;
+
+
+}
+
+
+
+/* About */
+
+#about {
+   padding:30px;
+   background-color:    #19194d
+   ;
+width: 100%;
+height: 80vh;
+padding-top:100px
+
+}
+
+#about .container {
+   display:  flex;
+justify-content: space-between;
+}
+
+#about .container2{
+    flex-direction: column;
+    display: flex;
+}
+
+#about .container img {
+    padding-right: 30px
+}
+
+
+/* concept */
+
+#concept{
+  
+    background-color: darkcyan;
+    width: 100%;
+    height:80vh;
+    padding-top:100px
+}
+
+#concept .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+/* Contact */
+
+#contact{
+    width: 100%;
+    height: 60vh;
+    padding: 3%;
+}
+
+#contact .container{
+    display:flex;
+    flex-direction: column;
+}
+
+#contact .faces{
+display: flex;
+
+
+}
+
+#contact img{
+    width: 25%;
+    height:50%;
+}
+
+/* portofolio */
+
+
+.page-footer{
+    height:20%;
+    background-color: #658E9C;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
