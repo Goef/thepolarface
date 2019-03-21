@@ -52,7 +52,8 @@
    ;
 width: 100%;
 height: 80vh;
-padding-top:100px
+padding-top:100px;
+color: white;
 
 }
 
@@ -67,7 +68,9 @@ justify-content: space-between;
 }
 
 #about .container img {
-    padding-right: 30px
+    padding-right: 30px;
+    height: 45vh;
+    width: 50vh;
 }
 
 
@@ -87,11 +90,15 @@ justify-content: space-between;
     flex-direction: row-reverse;
 }
 
+#concept img{
+    height: 40vh;
+    width: 50vh;
+}
 /* Contact */
 
 #contact{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     padding: 3%;
 }
 
@@ -109,14 +116,22 @@ display: flex;
 #contact img{
     width: 25%;
     height:50%;
+    margin:5px
 }
 
 /* portofolio */
 
 
-.page-footer{
-    height:20%;
+footer{
+    height:10vh;
     background-color: #658E9C;
+    bottom:0px;
+    align-content: center
+}
+
+footer div:first-child{
+display:flex;
+justify-content: center;
 }
 
 /* Responsive */
