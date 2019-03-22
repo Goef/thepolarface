@@ -42,6 +42,46 @@
 
 }
 
+/* Team */
+#team{
+  
+    background-color: darkcyan;
+    width: 100%;
+    height:80vh;
+    padding-top:100px
+}
+
+#team .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+#team img{
+    height: 40vh;
+    width: 50vh;
+}
+
+
+/* Team */
+#brainstorm{
+  
+    background-color: palevioletred;
+    width: 100%;
+    padding-top:100px;
+    display:flex
+}
+
+#brainstorm .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+#brainstorm img{
+    height: 40vh;
+    width: 50vh;
+}
 
 
 /* About */
@@ -80,8 +120,8 @@ justify-content: space-between;
   
     background-color: darkcyan;
     width: 100%;
-    height:80vh;
-    padding-top:100px
+    padding-top: 100px;
+    display: flex;
 }
 
 #concept .container{
